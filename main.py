@@ -1,10 +1,12 @@
 from board import Board
+from logic import Game
 
 
 def main():
-    board = Board()
+    game = Game()
+    board = Board(game)
     board.mainloop()
-    
+
 
 if __name__ == "__main__":
     main()
